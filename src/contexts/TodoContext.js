@@ -3,7 +3,7 @@ import { useContext, createContext } from "react";
 export const TodoContext = createContext({
     todos: {
         id: 1,
-        todo: "some task",
+        task: "some task",
         completed: false,
     },
     addTodo: (todo) => {},
